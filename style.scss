@@ -20,20 +20,15 @@ header{
     ul{
         display: flex;
         justify-content: space-around;
-
-
         li{
             margin-top: 3rem;
             margin-bottom: 2rem;
-
-
             a{
                 padding-right:1rem;
                 text-decoration: none;
                 color:$off-white;
                 font-family: Raleway;
                 font-weight: 600;
-
                 &:hover{
                     color:#808080;
                 }
@@ -49,8 +44,6 @@ header{
 .container{
     max-width: 62rem;
     margin: 0 auto;
-
-    
     h2{
         font-size: 2rem;
         margin-bottom: 2rem;
@@ -58,31 +51,26 @@ header{
         font-family: Raleway;
         padding-left: 1rem;
     }
-
 }
 
-.schilderijen {
+.gallery{
     display: flex;
     flex-wrap: wrap;
-
     a{
-    padding-right: 1rem;
-    padding-left: 1rem;
-    text-decoration: none;
-
-    margin-top: 1rem;
-    margin-bottom: 1rem;
- 
+        padding-right: 1rem;
+        padding-left: 1rem;
+        text-decoration: none;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
     }
     img{
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-
+        margin-top: 1rem;
+        margin-bottom: 1rem;
     }
-
 }
-    .six{
-        display: flex;
+    
+.six{
+    display: flex;
     flex-wrap: wrap;
     .thumbnail{
         width: 10rem;
@@ -93,46 +81,47 @@ header{
 
 footer{
     display: flex;
-    justify-content: flex-end;
-
-    ul {
+    justify-content: center;
+    ul{
         margin-top:3rem;
         margin-bottom: 1rem;
-    li{
-        color: $off-white;
-        font-family: Raleway;
-        font-weight: 400;
-        font-size: 1rem;
-        padding-top: 0.7rem;
-
+        display: flex;
+        li{
+            color: $off-white;
+            font-family: Raleway;
+            font-weight: 600;
+            font-size: 1rem;
+            padding-top: 0.7rem;
+            padding-right: 0.5rem;
+            padding-left: 0.5rem;
+        }
     }
 }
-}
 
-@media screen and (max-width: 989px) and (min-width: 747px) {
-    .page-title {
+@media screen and (max-width: 989px) and (min-width: 747px){
+    .page-title{
         text-align: center;
     }
-
     .container h2{
         font-size: 1.8rem;
     }
-    .schilderijen{
+    .gallery{
         justify-content: center;
     }
 }
 
-@media screen and (max-width: 746px) and (min-width: 505px) {
-    .page-title {
+@media screen and (max-width: 746px) and (min-width: 505px){
+    .page-title{
         text-align: center;
     }
-
     .container h2{
         font-size: 1.8rem;
     }
-
-    .schilderijen{
+    .gallery{
         justify-content: center;
+    }
+    footer ul{
+        flex-direction: column;
     }
 }
 
@@ -161,16 +150,16 @@ footer{
             }
         }
     }
-
     .container{
         margin-top: 3rem;
     }
-
-    .page-title {
+    .page-title{
         display: none;
-        
     }
-    .schilderijen{
+    .gallery{
         justify-content: center;
+    }
+    footer ul{
+        flex-direction: column;
     }
 }

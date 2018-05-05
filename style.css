@@ -66,16 +66,16 @@ header {
     font-family: Raleway;
     padding-left: 1rem; }
 
-.schilderijen {
+.gallery {
   display: flex;
   flex-wrap: wrap; }
-  .schilderijen a {
+  .gallery a {
     padding-right: 1rem;
     padding-left: 1rem;
     text-decoration: none;
     margin-top: 1rem;
     margin-bottom: 1rem; }
-  .schilderijen img {
+  .gallery img {
     margin-top: 1rem;
     margin-bottom: 1rem; }
 
@@ -89,16 +89,19 @@ header {
 
 footer {
   display: flex;
-  justify-content: flex-end; }
+  justify-content: center; }
   footer ul {
     margin-top: 3rem;
-    margin-bottom: 1rem; }
+    margin-bottom: 1rem;
+    display: flex; }
     footer ul li {
       color: #D8CCCC;
       font-family: Raleway;
-      font-weight: 400;
+      font-weight: 600;
       font-size: 1rem;
-      padding-top: 0.7rem; }
+      padding-top: 0.7rem;
+      padding-right: 0.5rem;
+      padding-left: 0.5rem; }
 
 @media screen and (max-width: 989px) and (min-width: 747px) {
   .page-title {
@@ -107,7 +110,7 @@ footer {
   .container h2 {
     font-size: 1.8rem; }
 
-  .schilderijen {
+  .gallery {
     justify-content: center; } }
 @media screen and (max-width: 746px) and (min-width: 505px) {
   .page-title {
@@ -116,8 +119,11 @@ footer {
   .container h2 {
     font-size: 1.8rem; }
 
-  .schilderijen {
-    justify-content: center; } }
+  .gallery {
+    justify-content: center; }
+
+  footer ul {
+    flex-direction: column; } }
 @media screen and (max-width: 505px) {
   .menu {
     font-size: 0.9rem;
@@ -145,7 +151,10 @@ footer {
   .page-title {
     display: none; }
 
-  .schilderijen {
-    justify-content: center; } }
+  .gallery {
+    justify-content: center; }
+
+  footer ul {
+    flex-direction: column; } }
 
 /*# sourceMappingURL=style.css.map */
