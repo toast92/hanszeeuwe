@@ -2,10 +2,10 @@
 <html>
   <head>
     <meta name="viewport" content="width=device-width" />
-    <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(). '/style.css' ?>">
+    <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(). '/min.css' ?>">
     <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(). '/reset.css' ?>">
     <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(). '/resources/lightbox.min.css' ?>">
-    <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(). '/resources/wpforms-full.css'?>">
+    <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(). '/resources/wpforms-min.css'?>">
     <title>Hans Zeeuwe</title>
   </head>
   <body>
@@ -45,6 +45,7 @@
         <li>contact@hanszeeuwe.nl</li>
         <li>Achtste donk 126</li>
         <li>5233PE, Den Bosch</li>
+        <li><a target="_blank" href="http://www.pitje.com">www.pitje.com</a></li>
       </ul>
     </footer>
     </div>

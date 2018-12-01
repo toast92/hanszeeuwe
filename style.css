@@ -102,6 +102,8 @@ footer {
       padding-top: 0.7rem;
       padding-right: 0.5rem;
       padding-left: 0.5rem; }
+      footer ul li a {
+        color: #D8CCCC; }
 
 @media screen and (max-width: 989px) and (min-width: 747px) {
   .page-title {
